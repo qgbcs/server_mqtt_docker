@@ -1,4 +1,5 @@
-FROM python:3.11-slim
+#FROM python:3.11-slim
+FROM docker.mirrors.ustc.edu.cn/library/python:3.10-slim
 
 ENV DEBIAN_FRONTEND=noninteractive \
     PYTHONDONTWRITEBYTECODE=1 \
