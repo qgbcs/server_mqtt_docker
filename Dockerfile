@@ -3,7 +3,6 @@
 FROM docker.m.daocloud.io/library/python:3.10-slim
 # 备用方案：
 # FROM docker.1ms.run/library/python:3.10-slim
-# FROM docker.m.daocloud.io/library/python:3.10-slim
 
 ENV DEBIAN_FRONTEND=noninteractive \
     PYTHONDONTWRITEBYTECODE=1 \
