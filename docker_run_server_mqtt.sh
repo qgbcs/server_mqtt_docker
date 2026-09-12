@@ -18,7 +18,6 @@ if [[ ! -d "$HOST_MOUNT" ]]; then
 fi
 
 
-
 echo " Ensuring final tag: $TARGET_IMAGE"
 if ! docker image inspect "$TARGET_IMAGE" >/dev/null 2>&1; then
     echo " Building Docker image: $LOCAL_BUILD_IMAGE"
