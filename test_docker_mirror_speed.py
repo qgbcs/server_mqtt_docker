@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import ssl
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
